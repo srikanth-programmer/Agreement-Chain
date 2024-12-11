@@ -1,6 +1,6 @@
 # DAO Application
 
-![Solidity Workflow](./agreement_chain/public/Workflow.pngWorkflow.png)
+![Solidity Workflow](./agreement_chain/public/Workflow.png)
 
 Welcome to the DAO Application! This repository encompasses both the frontend application and the smart contract infrastructure necessary for our decentralized autonomous organization (DAO). Our DAO facilitates agreement management, stakeholder actions, and condition handling through a seamless integration of smart contracts and a user-friendly interface.
 
