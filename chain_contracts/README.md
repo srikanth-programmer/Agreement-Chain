@@ -2,7 +2,8 @@
 
 The `chain_contracts` project contains all Solidity smart contracts and related configurations for deploying and managing the DAO's blockchain infrastructure. It includes contracts for agreement creation, stakeholder management, and condition handling, ensuring a secure and decentralized agreement lifecycle.
 
-![Smart Contract Workflow](Workflow.png)
+![Smart Contract Workflow](../agreement_chain/public/Workflow.png)
+
 
 ## Table of Contents
 
