@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="#f0f9ff"/>
+  
+  <!-- Chain links forming a circle -->
+  <g transform="rotate(45, 200, 200)">
+    <!-- Left chain link -->
+    <path d="M160,140 Q130,140 130,170 L130,230 Q130,260 160,260 L180,260 Q210,260 210,230 L210,170 Q210,140 180,140 Z" 
+          fill="none" 
+          stroke="#2563eb" 
+          stroke-width="12"/>
+    
+    <!-- Right chain link -->
+    <path d="M220,140 Q190,140 190,170 L190,230 Q190,260 220,260 L240,260 Q270,260 270,230 L270,170 Q270,140 240,140 Z" 
+          fill="none" 
+          stroke="#2563eb" 
+          stroke-width="12"/>
+  </g>
+  
+  <!-- Checkmark symbol -->
+  <path d="M180,220 L200,240 L240,180" 
+        fill="none" 
+        stroke="#059669" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+        
+  <!-- Document shape behind -->
+  <path d="M150,140 L250,140 L250,260 L150,260 Z" 
+        fill="none" 
+        stroke="#6b7280" 
+        stroke-width="4" 
+        stroke-dasharray="8,8"/>
+</svg>
