@@ -9,7 +9,7 @@ import { sepolia } from "thirdweb/chains";
 import { getContract } from "thirdweb";
 import { Plus } from "lucide-react";
 
-const dashboard = () => {
+const Dashboard = () => {
   const { ContractCard } = Cardcomponents;
 
   const contract = getContract({
@@ -64,4 +64,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
