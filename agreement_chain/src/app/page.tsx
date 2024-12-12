@@ -13,12 +13,10 @@ export default function Home() {
 
   const router = useRouter();
 
-  const handleGetStarted = async () => {
+  const HandleGetStarted = async () => {
     if (address) {
       router.push(`/dashboard/${address?.address}`);
-    } else {
-      useConnect();
-    }
+    } 
   };
 
   return (
@@ -45,7 +43,7 @@ export default function Home() {
               </p>
 
               <button
-                onClick={handleGetStarted}
+                onClick={HandleGetStarted}
                 className="px-8 py-4 cursor-pointer rounded-lg p-2 bg-primary text-primary-foreground hover:bg-background-secondary dark:hover:bg-dark-background-secondary transition-colors ext-lg font-medium flex items-center justify-center space-x-2 mx-auto md:mx-0"
               >
                 <span>Get Started</span>
